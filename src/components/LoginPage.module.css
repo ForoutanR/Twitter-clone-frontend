@@ -1,0 +1,80 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.login-form {
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 30%; /* Adjust based on preference */
+    min-width: 400px; /* Ensure form doesn't get too small on narrower screens */
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 32px;
+    color: #333;
+    font-size: 24px; /* Slightly larger font for desktop */
+    text-align: center;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px; /* Enhanced readability */
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccd6dd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px; /* Comfortable text size for desktop users */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 18px; /* Larger button text for easier interaction */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0d8bce;
+}
+
+p, a {
+    font-size: 14px; /* Adjusted for desktop readability */
+    text-align: center;
+    color: #333;
+}
+
+a {
+    color: #1da1f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
